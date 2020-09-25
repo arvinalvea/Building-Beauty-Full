@@ -26,7 +26,7 @@ nav {
   width: 100%;
   z-index: 10000;
   min-height: 8vh;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: transparent;
   height: 10vh;
   transition: background-color 250ms ease-in;
 }
@@ -79,7 +79,7 @@ nav img {
 }
 .burger div {
   width: 25px;
-  height: 1px;
+  height: 3px;
   background-color: #e2e2e2;
   margin: 5px;
   transition: all 0.3s ease;
