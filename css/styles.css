@@ -42,19 +42,19 @@ nav img {
   font-size: 0.5em;
   display: flex;
   position: absolute;
-  right: 0px;
+  left: 0px;
   height: 92vh;
   top: 10vh;
-  background-color: #b88768;
+  background-color: #fff4ed;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 60%;
-  transform: translateX(100%);
+  width: 100%;
+  transform: translateX(-100%);
   transition: transform 0.5s ease-in;
 }
 .nav-links a {
-  color: white;
+  color: black;
   text-decoration: none;
   position: inherit;
   letter-spacing: 4px;
@@ -146,7 +146,7 @@ nav img {
   }
 }
 .toggle .burger-line-1 {
-  transform: rotate(-45deg) translate(-5px, 4px);
+  transform: rotate(-45deg) translate(-5px, 6px);
 }
 
 .toggle .burger-line-2 {
@@ -154,7 +154,7 @@ nav img {
 }
 
 .toggle .burger-line-3 {
-  transform: rotate(45deg) translate(-5px, -4px);
+  transform: rotate(45deg) translate(-5px, -6px);
 }
 
 /*# sourceMappingURL=styles.css.map */
