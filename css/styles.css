@@ -1,0 +1,160 @@
+/* MIXINS ------------------------------------------------- */
+/* BASE ------------------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* NAV ------------------------------------------------- */
+nav {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 10000;
+  min-height: 8vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 10vh;
+  transition: background-color 250ms ease-in;
+}
+nav img {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  height: 80px;
+}
+
+.nav-links {
+  font-family: "Kumbh Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 0.5em;
+  display: flex;
+  position: absolute;
+  right: 0px;
+  height: 92vh;
+  top: 10vh;
+  background-color: #b88768;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  transform: translateX(100%);
+  transition: transform 0.5s ease-in;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  position: inherit;
+  letter-spacing: 4px;
+}
+.nav-links li {
+  list-style-type: none;
+  font-size: 2em;
+  opacity: 0;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.nav-scrolled {
+  background-color: black;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+}
+
+.burger {
+  display: block;
+  cursor: pointer;
+  margin-left: 1em;
+}
+.burger div {
+  width: 25px;
+  height: 1px;
+  background-color: #e2e2e2;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+.nav-active {
+  transform: translateX(0);
+}
+
+/* HERO ------------------------------------------------- */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: url("../img/building-beauty-hero-1.jpg");
+  /* Set a specific height */
+  height: 100%;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.hero-text h1 {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 3em;
+  line-height: 1;
+  letter-spacing: 10px;
+  margin-bottom: 0.2em;
+}
+.hero-text p {
+  width: 90%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.8em;
+  max-width: 60%;
+  font-family: "Playfair Display", serif;
+  margin-top: 2em;
+}
+
+/* KEYFRAMES ------------------------------------------------- */
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+.toggle .burger-line-1 {
+  transform: rotate(-45deg) translate(-5px, 4px);
+}
+
+.toggle .burger-line-2 {
+  opacity: 0;
+}
+
+.toggle .burger-line-3 {
+  transform: rotate(45deg) translate(-5px, -4px);
+}
+
+/*# sourceMappingURL=styles.css.map */
