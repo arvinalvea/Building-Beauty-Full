@@ -151,14 +151,14 @@ nav {
   h1 {
     font-weight: 500;
     font-size: 4em;
-    line-height: 0.9;
+    line-height: 0.7;
     letter-spacing: -1px;
     margin-bottom: 2em;
     background-color: rgba(255, 244, 237, 0.5);
   }
   p {
     @include center;
-    background-color: rgba(255, 244, 237, 0.5);
+    // background-color: rgba(255, 244, 237, 0.5);
     font-size: 1em;
     text-transform: uppercase;
     width: 90%;
