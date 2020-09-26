@@ -12,9 +12,16 @@ html {
   overflow-x: hidden;
 }
 
+h1,
+h2 {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+}
+
 .container {
   width: 90%;
   margin: 0 auto;
+  height: 100%;
 }
 
 /* NAV ------------------------------------------------- */
@@ -37,7 +44,7 @@ nav img {
 }
 
 .nav-links {
-  font-family: "Kumbh Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   font-size: 0.5em;
   display: flex;
@@ -116,8 +123,6 @@ nav img {
   color: black;
 }
 .hero-text h1 {
-  font-family: "Poppins", sans-serif;
-  text-transform: uppercase;
   font-weight: 500;
   font-size: 4em;
   line-height: 0.9;
@@ -136,6 +141,18 @@ nav img {
   width: 90%;
   font-family: "Poppins", sans-serif;
   margin-bottom: 0.5em;
+}
+
+/* HOME SECTION ------------------------------------------------- */
+.home {
+  background-color: #fff4ed;
+  height: 40vh;
+}
+.home h2 {
+  font-weight: 400;
+  background-color: #fff;
+  text-align: center;
+  letter-spacing: 4px;
 }
 
 /* KEYFRAMES ------------------------------------------------- */

@@ -3,8 +3,6 @@ $white: #fff;
 $color-primary: #fff4ed;
 
 $font-stack-primary: "Poppins", sans-serif;
-$font-stack-secondary: "Playfair Display", serif;
-$font-stack-tertiary: "Kumbh Sans", sans-serif;
 
 /* MIXINS ------------------------------------------------- */
 
@@ -29,9 +27,16 @@ html {
   overflow-x: hidden;
 }
 
+h1,
+h2 {
+  font-family: $font-stack-primary;
+  text-transform: uppercase;
+}
+
 .container {
   width: 90%;
   margin: 0 auto;
+  height: 100%;
 }
 
 /* NAV ------------------------------------------------- */
@@ -55,7 +60,7 @@ nav {
 }
 
 .nav-links {
-  font-family: $font-stack-tertiary;
+  font-family: $font-stack-primary;
   text-transform: uppercase;
   font-size: 0.5em;
   display: flex;
@@ -144,8 +149,6 @@ nav {
   transform: translate(-50%, -50%);
   color: black;
   h1 {
-    font-family: $font-stack-primary;
-    text-transform: uppercase;
     font-weight: 500;
     font-size: 4em;
     line-height: 0.9;
@@ -161,6 +164,19 @@ nav {
     width: 90%;
     font-family: $font-stack-primary;
     margin-bottom: 0.5em;
+  }
+}
+
+/* HOME SECTION ------------------------------------------------- */
+
+.home {
+  background-color: $color-primary;
+  height: 40vh;
+  h2 {
+    font-weight: 400;
+    background-color: $white;
+    text-align: center;
+    letter-spacing: 4px;
   }
 }
 
