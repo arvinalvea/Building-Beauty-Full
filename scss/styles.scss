@@ -151,14 +151,15 @@ nav {
   color: black;
   h1 {
     font-family: "Prata", serif;
-    color: white;
+    color: rgb(262, 262, 262);
     text-shadow: 1px 1px 2px black;
     font-weight: 500;
-    font-size: 4em;
-    line-height: 0.9;
-    letter-spacing: -1px;
+    font-size: 3.8em;
+    line-height: 1;
+    letter-spacing: 2px;
     margin-bottom: 2em;
-    background-color: rgba(255, 244, 237, 0.5);
+    padding: 0.3em;
+    background-color: rgba(255, 244, 237, 0.8);
   }
   p {
     @include center;
