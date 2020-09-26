@@ -191,6 +191,18 @@ nav img {
   background-image: url("../img/makeup.jpeg");
 }
 
+#artist-mentor {
+  background-image: url("../img/artist.jpg");
+}
+
+#shop {
+  background-image: url("../img/makeup-2.jpg");
+}
+
+#contact {
+  background-image: url("../img/laura-2.jpg");
+}
+
 /* KEYFRAMES ------------------------------------------------- */
 @keyframes navLinkFade {
   from {
