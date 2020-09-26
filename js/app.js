@@ -23,27 +23,27 @@ const navSlide = () => {
   });
 };
 
-// const nav = document.querySelector("nav");
-// const sectionOne = document.querySelector(".hero-text h1");
+const nav = document.querySelector("nav");
+const sectionOne = document.querySelector(".hero-text h1");
 
-// const sectionOneOptions = {
-//   rootMargin: "-257px 0px 0px 0px",
-// };
+const sectionOneOptions = {
+  rootMargin: "-257px 0px 0px 0px",
+};
 
-// const sectionOneObserver = new IntersectionObserver(function (
-//   entries,
-//   sectionOneObserver
-// ) {
-//   entries.forEach((entry) => {
-//     if (!entry.isIntersecting) {
-//       nav.classList.add("nav-scrolled");
-//     } else {
-//       nav.classList.remove("nav-scrolled");
-//     }
-//   });
-// },
-// sectionOneOptions);
+const sectionOneObserver = new IntersectionObserver(function (
+  entries,
+  sectionOneObserver
+) {
+  entries.forEach((entry) => {
+    if (!entry.isIntersecting) {
+      nav.classList.add("nav-scrolled");
+    } else {
+      nav.classList.remove("nav-scrolled");
+    }
+  });
+},
+sectionOneOptions);
 
-// sectionOneObserver.observe(sectionOne);
+sectionOneObserver.observe(sectionOne);
 
 navSlide();
