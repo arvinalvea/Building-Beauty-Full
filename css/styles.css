@@ -80,7 +80,7 @@ nav img {
 .burger div {
   width: 25px;
   height: 3px;
-  background-color: #e2e2e2;
+  background-color: black;
   margin: 5px;
   transition: all 0.3s ease;
 }
@@ -92,7 +92,7 @@ nav img {
 /* HERO ------------------------------------------------- */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: url("../img/building-beauty-hero-1.jpg");
+  background-image: url("../img/laura-1.jpg");
   /* Set a specific height */
   height: 100%;
   /* Position and center the image to scale nicely on all screens */
@@ -109,19 +109,20 @@ nav img {
 .hero-text {
   text-align: center;
   position: absolute;
-  top: 30%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: black;
 }
 .hero-text h1 {
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
-  font-weight: lighter;
-  font-size: 3em;
-  line-height: 1;
-  letter-spacing: 10px;
+  font-weight: 500;
+  font-size: 4em;
+  line-height: 0.9;
+  letter-spacing: -1px;
   margin-bottom: 0.2em;
+  background-color: #fff4ed;
 }
 .hero-text p {
   width: 90%;
