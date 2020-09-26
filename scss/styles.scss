@@ -28,7 +28,8 @@ html {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: $font-stack-primary;
   text-transform: uppercase;
 }
@@ -171,7 +172,6 @@ nav {
 
 .home {
   background-color: $color-primary;
-  height: 60vh;
   overflow: hidden;
   h2 {
     font-weight: 400;
@@ -181,12 +181,40 @@ nav {
     padding: 10px;
     letter-spacing: 4px;
     width: 30%;
-
     margin: 1em auto;
+  }
+  h3 {
+    font-weight: 400;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
   }
   img {
     width: 100%;
   }
+}
+
+.projectThumb {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 220px;
+  margin: 0px auto 20px auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-size: 100%;
+  transition: all 0.4s ease;
+}
+
+#about-me {
+  background-image: url("../img/laura-3.jpg");
+}
+
+#colour-match {
+  background-image: url("../img/makeup.jpeg");
 }
 
 /* KEYFRAMES ------------------------------------------------- */
