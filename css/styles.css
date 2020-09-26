@@ -146,7 +146,7 @@ nav img {
 .home {
   background-color: #fff4ed;
   height: 60vh;
-  overflow: auto;
+  overflow: hidden;
 }
 .home h2 {
   font-weight: 400;

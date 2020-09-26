@@ -172,7 +172,7 @@ nav {
 .home {
   background-color: $color-primary;
   height: 60vh;
-  overflow: auto;
+  overflow: hidden;
   h2 {
     font-weight: 400;
     background-color: $white;
