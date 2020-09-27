@@ -10,12 +10,12 @@ body,
 html {
   height: 100%;
   overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
 }
 
 h1,
 h2,
 h3 {
-  font-family: "Poppins", sans-serif;
   text-transform: uppercase;
 }
 
@@ -45,7 +45,6 @@ nav img {
 }
 
 .nav-links {
-  font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   font-size: 0.5em;
   display: flex;
@@ -237,6 +236,31 @@ nav img {
 /* FOOTER SECTION ------------------------------------------------- */
 footer {
   background-color: #fff4ed;
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+footer ul,
+footer p {
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+footer li {
+  text-align: center;
+  list-style-type: none;
+}
+footer a,
+footer p {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 3px;
+  font-size: 0.7em;
+  line-height: 0.8;
+  font-weight: 500;
+}
+footer p {
+  font-size: 0.6em;
+  text-align: center;
 }
 
 /* KEYFRAMES ------------------------------------------------- */
