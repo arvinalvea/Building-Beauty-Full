@@ -1,6 +1,8 @@
 $white: #fff;
 
 $color-primary: #fff4ed;
+$color-secondary: #fbf9f5;
+$color-tertiary: #c58f69;
 
 $font-stack-primary: "Poppins", sans-serif;
 
@@ -95,7 +97,7 @@ nav {
 }
 
 .nav-scrolled {
-  background-color: $color-primary;
+  background-color: $color-secondary;
   box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
 }
 
@@ -175,7 +177,7 @@ nav {
 /* HOME SECTION ------------------------------------------------- */
 
 .home {
-  background-color: $color-primary;
+  background-color: $color-secondary;
   overflow: hidden;
   h2 {
     font-weight: 400;
@@ -231,6 +233,19 @@ nav {
 
 #contact {
   background-image: url("../img/laura-2.jpg");
+}
+
+/* IG BANNER SECTION ------------------------------------------------- */
+
+.ig-banner {
+  width: 100%;
+  background-color: $color-tertiary;
+}
+
+/* FOOTER SECTION ------------------------------------------------- */
+
+footer {
+  background-color: $color-primary;
 }
 
 /* KEYFRAMES ------------------------------------------------- */

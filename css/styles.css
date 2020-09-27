@@ -77,7 +77,7 @@ nav img {
 }
 
 .nav-scrolled {
-  background-color: #fff4ed;
+  background-color: #fbf9f5;
   box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
 }
 
@@ -148,7 +148,7 @@ nav img {
 
 /* HOME SECTION ------------------------------------------------- */
 .home {
-  background-color: #fff4ed;
+  background-color: #fbf9f5;
   overflow: hidden;
 }
 .home h2 {
@@ -204,6 +204,17 @@ nav img {
 
 #contact {
   background-image: url("../img/laura-2.jpg");
+}
+
+/* IG BANNER SECTION ------------------------------------------------- */
+.ig-banner {
+  width: 100%;
+  background-color: #c58f69;
+}
+
+/* FOOTER SECTION ------------------------------------------------- */
+footer {
+  background-color: #fff4ed;
 }
 
 /* KEYFRAMES ------------------------------------------------- */
