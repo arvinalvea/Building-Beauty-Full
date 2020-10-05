@@ -145,6 +145,10 @@ nav img {
   font-family: "Poppins", sans-serif;
   margin-bottom: 0.5em;
 }
+.hero-text a {
+  text-decoration: none;
+  color: black;
+}
 
 /* HOME SECTION ------------------------------------------------- */
 .home {
@@ -286,6 +290,58 @@ footer p {
 
 .toggle .burger-line-3 {
   transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/* MEDIA QUERIES ------------------------------------------------- */
+@media (min-width: 768px) {
+  nav {
+    background-color: transparent;
+    height: 12vh;
+  }
+
+  .nav-links {
+    position: static;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    width: 70%;
+    height: initial;
+    transform: translateX(0%);
+  }
+  .nav-links li {
+    opacity: 1;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .nav-links a {
+    font-size: 0.6rem;
+    position: absolute;
+  }
+
+  .burger {
+    display: none;
+  }
+
+  .hero-text p {
+    background-color: #fff4ed;
+    width: 55%;
+  }
+
+  .projectThumb {
+    height: 300px;
+  }
+
+  #contact {
+    background-position: 55% 45%;
+  }
+}
+@media (min-width: 992px) {
+  .hero-text h1 {
+    margin-bottom: 2.7em;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

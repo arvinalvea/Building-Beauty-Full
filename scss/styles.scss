@@ -171,6 +171,10 @@ nav {
     font-family: $font-stack-primary;
     margin-bottom: 0.5em;
   }
+  a {
+    text-decoration: none;
+    color: black;
+  }
 }
 
 /* HOME SECTION ------------------------------------------------- */
@@ -316,4 +320,62 @@ footer {
 }
 .toggle .burger-line-3 {
   transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/* MEDIA QUERIES ------------------------------------------------- */
+
+@media (min-width: 768px) {
+  nav {
+    background-color: transparent;
+    height: 12vh;
+  }
+
+  .nav-links {
+    position: static;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    width: 70%;
+    height: initial;
+    transform: translateX(0%);
+    li {
+      opacity: 1;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    a {
+      font-size: 0.6rem;
+      position: absolute;
+    }
+  }
+
+  .burger {
+    display: none;
+  }
+
+  .hero-text {
+    p {
+      background-color: $color-primary;
+      width: 55%;
+    }
+  }
+
+  .projectThumb {
+    height: 300px;
+  }
+
+  #contact {
+    background-position: 55% 45%;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero-text {
+    h1 {
+      margin-bottom: 2.7em;
+    }
+  }
 }

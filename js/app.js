@@ -1,3 +1,24 @@
+const nav = document.querySelector("nav");
+const sectionOne = document.querySelector(".hero-text h1");
+
+const sectionOneOptions = {
+  rootMargin: "-257px 0px 0px 0px",
+};
+
+const sectionOneObserver = new IntersectionObserver(function (
+  entries,
+  sectionOneObserver
+) {
+  entries.forEach((entry) => {
+    if (!entry.isIntersecting) {
+      nav.classList.add("nav-scrolled");
+    } else {
+      nav.classList.remove("nav-scrolled");
+    }
+  });
+},
+sectionOneOptions);
+
 const navSlide = () => {
   const burger = document.querySelector(".burger");
   const nav = document.querySelector(".nav-links");
@@ -23,26 +44,16 @@ const navSlide = () => {
   });
 };
 
-const nav = document.querySelector("nav");
-const sectionOne = document.querySelector(".hero-text h1");
+// Smooth scroll when arrow button is clicked
+document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+  anchor.addEventListener("click", function (e) {
+    e.preventDefault();
 
-const sectionOneOptions = {
-  rootMargin: "-257px 0px 0px 0px",
-};
-
-const sectionOneObserver = new IntersectionObserver(function (
-  entries,
-  sectionOneObserver
-) {
-  entries.forEach((entry) => {
-    if (!entry.isIntersecting) {
-      nav.classList.add("nav-scrolled");
-    } else {
-      nav.classList.remove("nav-scrolled");
-    }
+    document.querySelector(this.getAttribute("href")).scrollIntoView({
+      behavior: "smooth",
+    });
   });
-},
-sectionOneOptions);
+});
 
 sectionOneObserver.observe(sectionOne);
 
