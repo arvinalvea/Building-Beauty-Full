@@ -159,7 +159,7 @@ nav {
     color: rgb(262, 262, 262);
     text-shadow: 1px 1px 2px black;
     font-weight: 500;
-    font-size: 3.8em;
+    font-size: 3.8rem;
     line-height: 1.15;
     letter-spacing: 2px;
     padding-top: 0.1em;
@@ -378,7 +378,8 @@ footer {
 @media (min-width: 992px) {
   .hero-text {
     h1 {
-      margin-bottom: 2.7em;
+      font-size: 4rem;
+      margin-bottom: 2em;
     }
   }
 
@@ -400,5 +401,14 @@ footer {
   .card-contact {
     grid-column: 4/6;
     grid-row: 2;
+  }
+}
+
+@media (min-width: 1179px) {
+  .hero-text {
+    h1 {
+      font-size: 4.8rem;
+      margin-bottom: 2.2em;
+    }
   }
 }
