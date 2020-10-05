@@ -10,6 +10,7 @@ body,
 html {
   height: 100%;
   overflow-x: hidden;
+  background-color: #fbf9f5;
   font-family: "Poppins", sans-serif;
 }
 
@@ -17,6 +18,10 @@ h1,
 h2,
 h3 {
   text-transform: uppercase;
+}
+
+p {
+  line-height: 1.6;
 }
 
 .container {
@@ -103,11 +108,8 @@ nav img {
 
 /* HERO ------------------------------------------------- */
 .hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image: url("../img/laura-1.jpg");
-  /* Set a specific height */
   height: 100%;
-  /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -117,7 +119,6 @@ nav img {
   justify-content: center;
 }
 
-/* Place text in the middle of the image */
 .hero-text {
   text-align: center;
   position: absolute;
@@ -374,6 +375,34 @@ footer p {
     font-size: 4.8rem;
     margin-bottom: 2.2em;
   }
+}
+/* about.html section ------------------------------------------------- */
+.container-secondary {
+  margin-top: 6em;
+}
+
+.main-about h1 {
+  font-size: 2.3rem;
+  text-align: center;
+  font-weight: 300;
+  letter-spacing: 3px;
+  margin-bottom: 1.5em;
+}
+.main-about h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-transform: none;
+  margin-bottom: 1.5em;
+}
+.main-about p {
+  font-size: 1rem;
+  font-weight: 200;
+}
+.main-about img {
+  width: 100%;
+  margin: 1em auto;
 }
 
 /*# sourceMappingURL=styles.css.map */
