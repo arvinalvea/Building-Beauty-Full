@@ -116,7 +116,7 @@ nav img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: repeat(5, 1fr);
 }
 .hero a {
   text-decoration: none;
@@ -133,7 +133,7 @@ nav img {
   letter-spacing: 2px;
   background-color: rgba(255, 244, 237, 0.8);
   text-align: center;
-  grid-column: 1/8;
+  grid-column: 1/6;
   grid-row: 7;
   display: flex;
   align-content: center;
@@ -142,7 +142,7 @@ nav img {
 }
 
 .hero-p {
-  grid-column: 3/6;
+  grid-column: 1/6;
   grid-row: 11;
   font-size: 1em;
   text-transform: uppercase;
