@@ -303,6 +303,14 @@ footer p {
     grid-column: 2/5;
   }
 
+  .hero-p {
+    grid-column: 3/4;
+  }
+  .hero-p a {
+    background-color: rgba(255, 244, 237, 0.8);
+    padding: 0.2em;
+  }
+
   .grid-home {
     grid-template-columns: repeat(5, 1fr);
   }
@@ -364,10 +372,9 @@ footer p {
     grid-row: 2;
   }
 }
-@media (min-width: 1179px) {
-  .hero-p {
-    background-color: #fff4ed;
-    grid-column: 3/4;
+@media (min-width: 1200px) {
+  .hero-title {
+    font-size: 3rem;
   }
 }
 /* about.html section ------------------------------------------------- */
