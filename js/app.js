@@ -1,5 +1,5 @@
 const nav = document.querySelector("nav");
-const sectionOne = document.querySelector(".hero-text h1");
+const sectionOne = document.querySelector(".hero-title h1");
 
 const sectionOneOptions = {
   rootMargin: "-257px 0px 0px 0px",
