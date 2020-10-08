@@ -468,7 +468,6 @@ footer p {
 .main-contact {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(5, 1fr);
 }
 .main-contact h1 {
   font-weight: 400;
@@ -485,12 +484,67 @@ footer p {
   letter-spacing: 3px;
   display: flex;
   align-items: center;
+  margin-top: 1em;
 }
 .main-contact span {
   grid-row: 2;
   grid-column: 1/6;
   font-size: 3rem;
+  margin: 0.5em;
   text-align: center;
+}
+
+form {
+  margin: 2em auto;
+  padding: 10px 20px;
+  background: transparent;
+  grid-row: 5;
+  grid-column: 1/6;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  font-size: 1rem;
+  font-weight: 100;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #fff;
+  background-color: black;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid black;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 200;
 }
 
 /*# sourceMappingURL=styles.css.map */
