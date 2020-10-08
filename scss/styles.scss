@@ -76,7 +76,7 @@ nav {
 
 .nav-links {
     text-transform: uppercase;
-    font-size: 0.5em;
+    // font-size: 0.5rem;
     display: flex;
     //   justify-content: space-around;
     position: absolute;
@@ -99,7 +99,7 @@ nav {
     }
     li {
         list-style-type: none;
-        font-size: 2em;
+        font-size: 1rem;
         opacity: 0;
         margin-top: 40px;
         margin-bottom: 10px;
@@ -171,7 +171,7 @@ nav {
 .hero-p {
     grid-column: 1/6;
     grid-row: 11;
-    font-size: 1em;
+    font-size: 1rem;
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
     margin-bottom: 0.5em;
@@ -190,7 +190,7 @@ nav {
         font-weight: 400;
         background-color: $white;
         text-align: center;
-        font-size: 1em;
+        font-size: 1rem;
         padding: 10px;
         letter-spacing: 4px;
         width: 30%;
@@ -262,7 +262,7 @@ nav {
         text-decoration: none;
         color: black;
         font-weight: 400;
-        font-size: 0.5em;
+        font-size: 1rem;
         padding: 1em;
         letter-spacing: 3px;
         transition: all 0.5s ease-in;
@@ -281,24 +281,25 @@ footer {
     text-transform: uppercase;
     ul,
     p {
-        margin-top: 1em;
+        margin-top: 2em;
         margin-bottom: 2em;
     }
     li {
         text-align: center;
         list-style-type: none;
+        margin-bottom: 1em;
     }
     a,
     p {
         text-decoration: none;
         color: black;
         letter-spacing: 3px;
-        font-size: 0.7rem;
+        font-size: 0.8rem;
         line-height: 0.8;
         font-weight: 500;
     }
     p {
-        font-size: 0.5rem;
+        font-size: 0.6rem;
         text-align: center;
     }
 }
@@ -562,7 +563,7 @@ button {
     padding: 19px 39px 18px 39px;
     color: #fff;
     background-color: black;
-    font-size: 18px;
+    font-size: 1rem;
     text-align: center;
     font-style: normal;
     border-radius: 5px;
