@@ -505,6 +505,7 @@ form {
 
 input[type=text],
 input[type=email],
+input[type=file],
 textarea {
   background: rgba(255, 255, 255, 0.1);
   border: none;
