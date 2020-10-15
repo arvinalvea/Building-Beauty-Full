@@ -556,4 +556,12 @@ label {
   font-weight: 200;
 }
 
+#fileToUpload {
+  font-weight: 300;
+}
+
+#button-fileUpload {
+  width: 50%;
+}
+
 /*# sourceMappingURL=styles.css.map */
