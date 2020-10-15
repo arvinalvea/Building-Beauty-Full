@@ -348,6 +348,11 @@ footer p {
   #contact {
     background-position: 55% 45%;
   }
+
+  .footer-links {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 @media (min-width: 992px) {
   .home {
